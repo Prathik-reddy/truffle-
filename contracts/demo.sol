@@ -5,7 +5,7 @@ contract demo {
     uint number;
 
     function setNum(uint _no) public{
-        number = _no;
+        number = _no+10;
     }
 
     function getNum() view public returns(uint){
